@@ -1,4 +1,4 @@
-import { tvAndMoviesAdapter } from "../adapters/moviesAdapter";
+import { tvAndMoviesAdapter } from "../adapters/tvAndMoviesAdapter";
 import { TMDB, TMDB_API } from "../config/apiConfig";
 
 export const getPopularMovies = async () => {

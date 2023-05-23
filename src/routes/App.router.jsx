@@ -34,4 +34,8 @@ export const appRouter = createBrowserRouter([
       },
     ],
   },
+  {
+    path: "*",
+    element: <Navigate to="/home" />,
+  },
 ]);
